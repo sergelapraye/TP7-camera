@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/10/16 15:25:56.000.889,=C:\Users\Formation\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
+    <Transaction>2018/10/16 15:25:56.000.905,=C:\Users\Formation\Documents\Embarcadero\Studio\Projets\Unit1.cpp</Transaction>
+    <Transaction>2018/10/16 15:26:03.000.620,=C:\Users\Formation\Documents\Embarcadero\Studio\Projets\Unit2.cpp</Transaction>
+    <Transaction>2018/10/16 15:26:41.000.314,C:\Users\Formation\Documents\Embarcadero\Studio\Projets\Camera\CommandList.cpp=C:\Users\Formation\Documents\Embarcadero\Studio\Projets\Unit2.cpp</Transaction>
+    <Transaction>2018/10/16 15:26:41.000.314,C:\Users\Formation\Documents\Embarcadero\Studio\Projets\Camera\CommandList.h=C:\Users\Formation\Documents\Embarcadero\Studio\Projets\Unit2.h</Transaction>
+    <Transaction>2018/10/16 15:26:54.000.371,C:\Users\Formation\Documents\Embarcadero\Studio\Projets\Camera\Unit1.h=C:\Users\Formation\Documents\Embarcadero\Studio\Projets\Unit1.h</Transaction>
+    <Transaction>2018/10/16 15:26:54.000.371,C:\Users\Formation\Documents\Embarcadero\Studio\Projets\Camera\Unit1.dfm=C:\Users\Formation\Documents\Embarcadero\Studio\Projets\Unit1.dfm</Transaction>
+    <Transaction>2018/10/16 15:26:54.000.371,C:\Users\Formation\Documents\Embarcadero\Studio\Projets\Camera\Unit1.cpp=C:\Users\Formation\Documents\Embarcadero\Studio\Projets\Unit1.cpp</Transaction>
+    <Transaction>2018/10/16 15:26:56.000.392,C:\Users\Formation\Documents\Embarcadero\Studio\Projets\Camera\Project1PCH1.h=C:\Users\Formation\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
+    <Transaction>2018/10/16 15:26:57.000.956,C:\Users\Formation\Documents\Embarcadero\Studio\Projets\Camera\Project1.cbproj=C:\Users\Formation\Documents\Embarcadero\Studio\Projets\Project1.cbproj</Transaction>
+    <Transaction>2018/10/16 17:18:27.000.215,=C:\Users\Formation\Documents\Embarcadero\Studio\Projets\Camera\COM.cpp</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Project1.cpp"/>
+    <File Path="Project1PCH1.h"/>
+    <File Path="Unit1.cpp"/>
+    <File Path="Unit1.cpp"/>
+    <File Path="Unit1.dfm"/>
+    <File Path="Unit1.h"/>
+    <File Path="CommandList.cpp"/>
+    <File Path="CommandList.cpp"/>
+    <File Path="CommandList.h"/>
+    <File Path="COM.cpp"/>
+    <File Path="COM.cpp"/>
+    <File Path="COM.h"/>
+  </ProjectSortOrder>
+</BorlandProject>

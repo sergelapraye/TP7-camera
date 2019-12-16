@@ -1,0 +1,184 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Cam'#233'ra'
+  ClientHeight = 457
+  ClientWidth = 784
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Min: TLabel
+    Left = 386
+    Top = 253
+    Width = 16
+    Height = 13
+    Caption = 'Min'
+  end
+  object Max: TLabel
+    Left = 682
+    Top = 253
+    Width = 20
+    Height = 13
+    Caption = 'Max'
+  end
+  object lblPosition: TLabel
+    Left = 504
+    Top = 216
+    Width = 50
+    Height = 13
+    Caption = 'Position  : '
+  end
+  object lblPositionValeur: TLabel
+    Left = 560
+    Top = 216
+    Width = 12
+    Height = 13
+    Caption = '50'
+  end
+  object Label1: TLabel
+    Left = 208
+    Top = 32
+    Width = 364
+    Height = 43
+    Caption = 'Pilotage de la cam'#233'ra'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -35
+    Font.Name = 'Trebuchet MS'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+  end
+  object OnBt: TButton
+    Left = 287
+    Top = 96
+    Width = 75
+    Height = 25
+    Cursor = crHandPoint
+    Caption = 'On'
+    TabOrder = 0
+    OnClick = OnBtClick
+  end
+  object OffBt: TButton
+    Left = 422
+    Top = 96
+    Width = 75
+    Height = 25
+    Cursor = crHandPoint
+    Caption = 'Off'
+    TabOrder = 1
+    OnClick = OffBtClick
+  end
+  object StopZoomBt: TButton
+    Left = 480
+    Top = 288
+    Width = 121
+    Height = 25
+    Cursor = crHandPoint
+    Caption = 'Stop Zoom'
+    TabOrder = 2
+    OnClick = StopZoomBtClick
+  end
+  object StopDeplaceBt: TButton
+    Left = 152
+    Top = 256
+    Width = 105
+    Height = 25
+    Cursor = crHandPoint
+    Caption = 'StopDeplace'
+    TabOrder = 3
+    OnClick = StopDeplaceBtClick
+  end
+  object DroiteBt: TButton
+    Left = 263
+    Top = 224
+    Width = 75
+    Height = 89
+    Cursor = crHandPoint
+    Caption = 'Droite'
+    TabOrder = 4
+    OnClick = DroiteBtClick
+  end
+  object GaucheBt: TButton
+    Left = 71
+    Top = 224
+    Width = 75
+    Height = 89
+    Cursor = crHandPoint
+    Caption = 'Gauche'
+    TabOrder = 5
+    OnClick = GaucheBtClick
+  end
+  object HautBt: TButton
+    Left = 635
+    Top = 244
+    Width = 41
+    Height = 34
+    Cursor = crHandPoint
+    Caption = '>>'
+    TabOrder = 6
+    OnClick = HautBtClick
+  end
+  object BasBt: TButton
+    Left = 408
+    Top = 244
+    Width = 41
+    Height = 33
+    Cursor = crHandPoint
+    Caption = '<<'
+    TabOrder = 7
+    OnClick = BasBtClick
+  end
+  object MonterBt: TButton
+    Left = 152
+    Top = 181
+    Width = 105
+    Height = 69
+    Cursor = crHandPoint
+    Caption = 'Monter'
+    TabOrder = 8
+    OnClick = MonterBtClick
+  end
+  object BaisserBt: TButton
+    Left = 152
+    Top = 287
+    Width = 105
+    Height = 69
+    Cursor = crHandPoint
+    Caption = 'Baisser'
+    TabOrder = 9
+    OnClick = BaisserBtClick
+  end
+  object TrackBar1: TTrackBar
+    Left = 455
+    Top = 248
+    Width = 174
+    Height = 45
+    Cursor = crHandPoint
+    Max = 100
+    Position = 50
+    TabOrder = 10
+    OnChange = TrackBar1Change
+  end
+  object ModeAutoBt: TButton
+    Left = 696
+    Top = 392
+    Width = 80
+    Height = 57
+    Cursor = crHandPoint
+    Caption = 'Auto'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Courier'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 11
+    OnClick = ModeAutoBtClick
+  end
+end
